@@ -1,0 +1,124 @@
+/* Welcome header */
+
+h1 {
+    text-align: center;
+    font-family: Futara, Optima, Times New Roman, Serif;
+    font-size: 80px;
+        background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text; 
+    text-shadow: -5px -5px black;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* navigation header */
+
+header {
+    text-decoration: white;
+    font-size: 30px;
+    background-color: black;
+    border-radius: 30px;
+    padding: 15px;
+    border: 5px solid purple;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+a:link {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+        color: pink;
+        background-color: transparent;
+        text-decoration: none;    
+}
+
+a:hover {
+    color: #cf23cf;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/* second header */
+
+h2 {
+    font-size: 55px;
+    border-radius: 30px;
+    border: 4px solid #ff6b08;
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; 
+}
+
+/* image and text */
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+
+img {
+    margin: 7px 7px 1px 7px;
+}
+
+
+/* text */
+p {
+    font-size: 18px;
+    font-family: Futara, Optima, Times New Roman, Serif;
+    color: black;
+    padding: 10px 10px 1px 10px;
+    margin: 2px 2px 2px 2px;
+    border: 3px solid #f32170;
+    border-radius: 30px;
+}
+
+.bio {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #f32170;
+    border-radius: 30px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    resize: vertical
+  }
+  
+  input[type=submit] {
+    background-color: pink;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #cf23cf;
+    border-radius: 30px;
+    color: black;
+  }
+  
+  .container {
+    border-radius: 30px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
